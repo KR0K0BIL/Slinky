@@ -1,0 +1,238 @@
+/***************************************************************************
+*                                                                          *
+* contented3 - An open source xhtml/css website template by Contented      *
+* Designs.  You're free to modify it and use it for any purpose without    *
+* cost or obligation. We'd prefer that you leave the link to our website   *
+* in the footer but it's not required.                                     *
+*                                                                          *
+* If you have comments or questions, please contact us at                  *
+* http://www.ContentedDesigns.org. Thanks!                                 *
+*                                                                          *
+* Version: 1.03 (Apr 15, 2010)                                             *
+***************************************************************************/
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	color: #333333;
+	background-color:#FFFFFF;
+	font-family:Arial, sans-serif;
+	font-size:83%;
+	/* I made these the containing div's job. */
+/*	margin:20px auto; */
+/*	width:650px; */
+/*        padding-left:10px; */
+/*        padding-right:10px; */
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, 
+fieldset, address { margin:0.75em 0;}
+
+h1 {font-size:167%;}
+
+h2 {font-size:139%;}
+
+h3 {font-size:120%;}
+
+h4 {font-size:100%;}
+
+li, dd { 
+	margin-left:2em;
+}
+
+a {
+        color: #FF7700;
+        background-color: transparent;
+        font-weight: normal;
+        text-decoration: none;
+	outline:none;
+}
+
+a:hover {
+        color: #CC3300;
+        background-color: transparent;
+        font-weight: normal;
+        text-decoration: underline;
+}
+
+.image_paragraph_right {
+	float: right;
+	margin-top:0px;
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+.image_paragraph_left {
+	float: left;
+	margin-top:0px;
+	margin-right:20px;
+	margin-bottom:5px;
+}
+
+.image_section_right {
+	float: right;
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+
+.image_section_left {
+	float: left;
+	margin-top:20px;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+/* There was no reason this needed to be a div.  */
+
+h1.title {
+        color:black;
+        font-size:200%;
+        font-weight:normal;
+        margin:0px 0px 10px 0px;
+}
+
+#slogan {
+	color:#000000;
+	background-color:#FFFFFF;
+	font-size:small;
+	font-weight:bold;
+	padding:18px 0px 0px 50px;
+	float:left;
+	margin:0px 0px 10px 0px;
+}
+
+/* I moved the code that removes a list’s style to two classes referenced below instead of an id selector because we use it in more than one place. */
+
+ul.nodecoration {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nodecoration li {
+	margin: 0;
+	padding: 0;
+}
+
+ul.indentonly {
+	list-style: none;
+	margin: 1;
+	padding: 0;
+}
+
+ul.indentonly li a {
+	margin: 0 0 0 10px;
+	padding: 0;
+	background-color: #FFD8AD;
+}
+
+ul#nav {
+	width:650px;
+}
+
+ul#nav li {
+
+	float: left;
+	width:20%;
+	text-align: center;
+}
+
+ul#nav li a {
+	display: block;
+	font-size: small;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	background: #FF8822;
+	padding: 2px 0px 2px 0px;
+}
+
+ul#nav li a:hover { background: #DD6600; color: #FFFFFF; }
+ul#nav a.selected:link { background: #DD6600; color: #FFFFFF; }
+ul#nav a.selected:visited { background: #DD6600; color: #FFFFFF; }
+
+#sidebar {
+	clear: both;
+	float:left;
+	/* We’re working in pixels, so hopefully this approximates what you were going for. */
+	width: 190px;
+	margin: 17px 10px 0px 0px;
+	background-color: #FFD8AD;
+}
+
+#maincontent {
+	font-size:100%;
+	padding:0px 5px 5px 0px;
+	margin:10px 0px 10px 0px;
+	/* The main content couldn’t fit inside the parent element’s width. */
+	width:675px;
+	float:left;
+}
+
+#maincontent2 {
+	font-size:100%;
+	padding:0px 5px 5px 0px;
+	margin:10px 0px 10px 0px;
+	/* The main content couldn’t fit inside the parent element’s width. */
+	width:725px;
+	float:left;
+}
+
+
+#footer {
+	color:#000000;
+	background-color:#FFFFFF;
+	font-size:80%;
+	line-height:1.5em;
+	width: 1050px;
+	margin: 0 0 0 200px;
+	clear:both;
+}
+
+#footer a {
+        color:#3366CC;
+        background-color:#FFFFFF;
+        text-decoration: none;
+}
+
+#footer a:hover {
+        color:#0033CC;
+        background-color:#FFFFFF;
+        font-weight: normal;
+        text-decoration: underline;
+}
+
+#copyright {
+	color:#000000;
+	background-color:#FFFFFF;
+	padding:5px 20px 5px 0px;
+	float:left;
+}
+
+#footercontact {
+	color:black;
+	background-color:#FFFFFF;
+	padding:5px 0px 5px 0px;
+	float:right;
+	width: 550px
+}
+
+hr {
+	width:650px;
+}
+
+/* I added a container to be consistent with my example. */
+
+#container {
+	width:1050px;
+	margin: 20px auto;
+	padding: 0 10px 0 10px;
+}
+
+#header {
+	margin: 0 0 0 200px;
+}

@@ -1,0 +1,431 @@
+
+A:link {
+	text-decoration: none; 
+	color: #FFFFFF;
+}
+A:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+A:active {
+	text-decoration: none;
+	color: #552200;
+}
+A:hover {
+	text-decoration: underline;
+	color: #00FF00;
+}
+
+
+DIV#header A:link {
+	text-decoration: none; 
+	color: #AA4400;
+}
+DIV#header A:visited {
+	text-decoration: none;
+	color: #aa4400;
+}
+DIV#header A:active {
+	text-decoration: none;
+	color: #552200;
+}
+DIV#header A:hover {
+	text-decoration: underline;
+	color: #007700;
+}
+
+DIV#wideheader A:link {
+	text-decoration: none; 
+	color: #AA4400;
+}
+DIV#wideheader A:visited {
+	text-decoration: none;
+	color: #aa4400;
+}
+DIV#wideheader A:active {
+	text-decoration: none;
+	color: #552200;
+}
+DIV#wideheader A:hover {
+	text-decoration: underline;
+	color: #007700;
+}
+
+BODY {
+	background: #333 url(paper2.png);
+}
+
+DIV#content {
+	display: block;
+	margin: 0 auto;
+	width: 820px;
+	background-color: #DDDDDD;
+}
+
+DIV#widecontent {
+	display: block;
+	margin: 0 auto;
+	width: 1140px;
+	background-color: #DDDDDD;
+}
+
+DIV#menu {
+}
+
+DIV#header {
+	display: block;
+	float: left;
+	width: 820px;
+}
+
+DIV#wideheader {
+	display: block;
+	float: left;
+	width: 1140px;
+}
+
+DIV#seas {
+	display: block;
+	float: right;
+	width: 820px;
+	background-color: white;
+}
+
+DIV#header P {
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-family: Verdana;
+	font-size: 1em;
+	background-color: #D7D7D7;
+}
+
+DIV#wideheader P {
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-family: Verdana;
+	font-size: 1em;
+	background-color: #D7D7D7;
+}
+
+DIV#logobar {
+	display: block;
+	background-color: #D7D7D7;
+	height: 80px;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+DIV#logobar2 {
+	display: block;
+	background-color: #D7D7D7;
+	height: 66px;
+	padding-top: 0px;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+DIV#portrait {
+	float: right;
+	display: block;
+	background-color: #D7D7D7;
+	height: 200;
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+DIV#lists {
+	clear: both;
+	background: #222222;
+	border: 10px solid #555555;
+	width: 800px;
+	font-family: Verdana;
+	color: #AAAAAA;
+	font-size: 1.2em;
+}
+
+DIV.theImage {
+        width: 155px;
+        overflow: hidden;
+	border-radius: 10px;
+}
+
+DIV#tiles {
+	clear: both;
+	background: #222222;
+	border: 10px solid #555555;
+	width: 800px;
+	font-family: Verdana;
+	color: #999999;
+	font-size: .8em;
+}
+
+DIV#widetiles {
+	clear: both;
+	background: #222222;
+	border: 10px solid #555555;
+	width: 1120px;
+	font-family: Verdana;
+	color: #999999;
+	font-size: .8em;
+}
+
+DIV.atile {
+	width: 160px;
+	height: 180px;
+	background: #222222;
+	text-align: center;
+	display: table-cell;
+	vertical-align: center;
+}
+
+DIV.awidetile {
+	width: 230px;
+	height: 180px;
+	background: #222222;
+	text-align: center;
+	display: table-cell;
+	vertical-align: center;
+}
+
+H1.name {
+	font-size: 2em;
+	margin: 0;
+}
+
+H1.name .first {
+	color: #111111;
+}
+
+H1.name .last {
+	color: #111111;
+}
+
+.rowtitle {
+	margin: 5px;
+}
+
+IMG {
+	border: 0;
+}
+
+.atile A {
+	color: #999999;
+}
+
+.atile IMG {
+	border: 0;
+}
+
+.awidetile A {
+	color: #999999;
+}
+
+.awidetile IMG {
+	border: 0;
+}
+
+IMG#seaslogo {
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+IMG#pulogo {
+	float: left;
+	margin-top: 10px;
+}
+
+IMG.portrait {
+	float: right;
+	margin-top: 1px;
+}
+
+IMG.books {
+	float: right;
+}
+
+.tile {
+	max-height: 150px;
+	max-width: 173px;
+	padding: 4px;
+        transition: transform 0.8s
+}
+
+#facebook {
+       text-align: left;
+}
+
+.fb_ltr {
+margin: 0 auto;
+width: auto !important;
+}
+
+#footer {
+	/* A div with the id 'footer' wraps the bottom bar. */
+	display: block;
+	float: right;
+	width: 820px;
+	height: 80px;
+	background-color: #DDDDDD;
+}
+
+#widefooter {
+	/* A div with the id 'footer' wraps the bottom bar. */
+	display: block;
+	float: right;
+	width: 1140px;
+	height: 80px;
+	background-color: #DDDDDD;
+}
+
+.alignleft {
+       float: left;
+}
+
+.alignright {
+	/* An element can be given the class 'alignleft/right', so I don't need
+to wrap the img in another div. */
+       float: right;
+}
+
+.tile2 {
+	max-height: 150px;
+	max-width: 173px;
+	padding: 4px;
+        transition: transform 0.8s
+}
+
+img.tile2:hover {
+        transform:scale(1.15);
+}
+
+img.tile:hover {
+        transform:scale(1.15);
+}
+
+.tile:hover {
+        transform:scale(1.15);
+        transition: transform 0.8s
+}
+
+.section {
+	background: #222222;
+        border-radius:  10px;
+        color:teal;
+}
+
+P.caption{
+        color: #AAAAAA;
+	font-size: 1.2em;
+        margin-top: 1em;
+	text-align: center;
+}
+main {
+    max-width: 2240px;
+    margin: 0rem auto;    
+    padding: 0rem 0rem;
+    border: 0px solid #000;
+}
+
+.flex-container {
+    background: #383838;
+    border: 0px solid #000;
+    border-radius: 5px;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.flex-item {
+    padding: 1.0rem;
+    margin: 1rem;
+    border: 1px solid #555;
+    border-radius: 10px;
+    font-weight: normal;
+    background-color: #333;
+}
+
+.flex-item-small {
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border: 1px solid #444;
+    border-radius: 0px;
+    font-weight: bold;
+    background-color: #333;
+    font-size: 0.85em;
+    color: #BBB;
+}
+
+/* flex-wrap: wrap; */
+#container0 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #444444;
+}
+
+/* flex-wrap: wrap; */
+#container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#container1 div:hover, .active {
+    color: #BBBBBB;
+    // background-color: #363636;
+}
+
+/* flex-wrap: wrap; */
+#container2 {
+    background: #222222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  // border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #4448;
+  color: #bbb8;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -75;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #5558 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
